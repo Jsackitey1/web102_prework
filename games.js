@@ -100,5 +100,4 @@ const template = `
 "img": ""
 },
 `
-
 export default games;
