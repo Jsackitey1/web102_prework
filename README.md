@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://www.loom.com/share/916d4c358dfd4771809d86c29eea673c?sid=bababac7-0b7f-4352-896b-d1b741051da5' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<a href='https://www.loom.com/share/916d4c358dfd4771809d86c29eea673c?sid=bababac7-0b7f-4352-896b-d1b741051da5'> Video Walkthrough</a>
 
 ---
 
