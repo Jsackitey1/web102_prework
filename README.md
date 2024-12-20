@@ -34,6 +34,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
+<<<<<<< HEAD
+=======
+<a  href='https://youtu.be/ZhXnvusShxI'>Video Walkthrough</a>
+>>>>>>> ef964bc (updated video link)
 
 ---
 
@@ -44,7 +48,7 @@ Describe any challenges encountered while building the app:
 - **Challenge 1:** Sorting and filtering large datasets efficiently.
 - **Challenge 2:** Ensuring DOM manipulation logic works properly across different browser environments.
 - **Challenge 3:** Debugging and ensuring clear user experience with filter buttons.
-
+- **Challenge 3:** Uploading the Walk through video to Git hub.
 ---
 
 ## License
