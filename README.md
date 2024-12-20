@@ -19,6 +19,17 @@ The following **required** functionality is completed:
 
 ---
 
+## Optional Features
+
+The following **optional** features are implemented:
+
+- [ ] Search functionality to filter games by keywords.
+- [ ] Pagination for displaying large amounts of data.
+- [ ] Enhanced sorting options (e.g., by backers or funding goal).
+- [ ] A progress bar showing the percentage of the funding goal met for each game.
+
+---
+
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
@@ -36,6 +47,7 @@ GIF created with ...
 
 ## Notes
 
+Describe any challenges encountered while building the app:
 
 - **Challenge 1:** Sorting and filtering large datasets efficiently.
 - **Challenge 2:** Ensuring DOM manipulation logic works properly across different browser environments.
@@ -45,7 +57,7 @@ GIF created with ...
 
 ## License
 
-    Copyright [2024] [jsackitey1]
+    Copyright [yyyy] [name of copyright owner]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
