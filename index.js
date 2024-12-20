@@ -165,12 +165,22 @@ allBtn.addEventListener("click", showAllGames);
 const descriptionContainer = document.getElementById("description-container");
 
 // use filter or reduce to count the number of unfunded games
+function countUnfundedGames() {
+    const unfundedCount = GAMES_JSON.filter(game => game.pledged < game.goal).length; 
+    const fundedCount = GAMES_JSON.filter(game => game.pledged > game.goal).length; 
 
+    const totalPledged = GAMES_JSON.reduce((acc, game) => acc + game.pledged, 0);
+    const totalGoal = GAMES_JSON.reduce((acc, game) => acc + game.goal, 0);
 
 // create a string that explains the number of unfunded games using the ternary operator
-
+const descriptionText = `A total of, $${totalPledged.toLocaleString()} has been raised towards a collective goal of $${totalGoal.toLocaleString()}. There ${unfundedCount === 1 ? 'is' : 'are'} ${unfundedCount} unfunded game${unfundedCount === 1 ? '' : 's'} remaining. We need your help to fund these amazing games!`;
 
 // create a new DOM element containing the template string and append it to the description container
+    const descriptionElement = document.createElement("p");
+    descriptionElement.textContent = descriptionText;
+    descriptionContainer.appendChild(descriptionElement);
+}
+countUnfundedGames();
 
 /************************************************************************************
  * Challenge 7: Select & display the top 2 games
@@ -185,7 +195,15 @@ const sortedGames =  GAMES_JSON.sort( (item1, item2) => {
 });
 
 // use destructuring and the spread operator to grab the first and second games
-
+const[first,second, ...rest]=sortedGames;
 // create a new element to hold the name of the top pledge game, then append it to the correct element
+const firstGameElement = document.createElement("p");
+firstGameElement.textContent = `${first.name}`;
+
+const secondGameElement = document.createElement("p");
+secondGameElement.textContent = `${second.name}`;
 
 // do the same for the runner up item
+
+firstGameContainer.appendChild(firstGameElement);
+secondGameContainer.appendChild(secondGameElement);
