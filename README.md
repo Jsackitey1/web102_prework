@@ -34,7 +34,6 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<a href='https://youtu.be/ZhXnvusShxI'> Video Walkthrough </a> 
 
 ---
 
