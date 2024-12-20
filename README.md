@@ -34,8 +34,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='Video Walkthrough.mp4' title='Video Walkthrough' width='' alt='Video Walkthrough'/>
-
+<a href='https://youtu.be/ZhXnvusShxI'> Video Walkthrough </a> 
 
 ---
 
