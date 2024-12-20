@@ -35,10 +35,13 @@ The following **optional** features are implemented:
 Here's a walkthrough of implemented features:
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <a  href='https://youtu.be/ZhXnvusShxI'>Video Walkthrough</a>
 >>>>>>> ef964bc (updated video link)
 
+=======
+>>>>>>> 7571d66 (add)
 ---
 
 ## Notes
