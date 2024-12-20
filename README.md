@@ -34,14 +34,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+<img src='https://www.loom.com/share/916d4c358dfd4771809d86c29eea673c?sid=4eb8066d-1f05-453e-9df4-14317d9ce2fd' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ---
 
