@@ -34,15 +34,16 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<a  href='https://youtu.be/ZhXnvusShxI'>Video Walkthrough</a>
->>>>>>> ef964bc (updated video link)
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-=======
->>>>>>> 7571d66 (add)
----
+<!-- Replace this with whatever GIF tool you used! -->
+
+GIF created with ...
+
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
@@ -52,6 +53,7 @@ Describe any challenges encountered while building the app:
 - **Challenge 2:** Ensuring DOM manipulation logic works properly across different browser environments.
 - **Challenge 3:** Debugging and ensuring clear user experience with filter buttons.
 - **Challenge 3:** Uploading the Walk through video to Git hub.
+
 ---
 
 ## License
